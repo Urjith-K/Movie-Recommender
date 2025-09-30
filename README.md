@@ -1,8 +1,30 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Movie Recommendation App
+
+This is a movie recommendation application built with Next.js. It fetches movie data from The Movie Database (TMDB) API to provide users with movie suggestions.
 
 ## Getting Started
 
 First, run the development server:
+### Prerequisites
+
+You will need to get an API key from The Movie Database (TMDB).
+
+Once you have your API key, create a file named `.env.local` in the root of the project and add your key to it:
+
+```
+TMDB_API_KEY=your_tmdb_api_key_here
+```
+
+### Installation
+
+First, install the dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -32,5 +54,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+When deploying, make sure to add the `TMDB_API_KEY` as an environment variable in your Vercel project settings.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

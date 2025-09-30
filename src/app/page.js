@@ -47,7 +47,7 @@ export default function Home() {
         <h1 className="text-7xl font-extrabold mb-8 drop-shadow-lg">Movie Genius</h1>
         <section className="text-center mb-12 max-w-3xl">
           <p className="text-2xl font-semibold mb-2 drop-shadow">Welcome to Movie Genius, your personal AI-powered movie recommendation engine!</p>
-          <p className="text-xl font-semibold drop-shadow">We use advanced AI to understand your unique tastes and suggest films you'll love. Simply tell us what you like, and let Movie Genius discover your next favorite movie. Say goodbye to endless scrolling and hello to personalized entertainment.</p>
+          <p className="text-xl font-semibold drop-shadow">We use advanced AI to understand your unique tastes and suggest films you&apos;ll love. Simply tell us what you like, and let Movie Genius discover your next favorite movie. Say goodbye to endless scrolling and hello to personalized entertainment.</p>
         </section>
         <MovieSlider onMovieClick={setSelectedMovie} onMovieChange={handleMovieChange} />
         <InteractiveGenreExplorer onMovieClick={setSelectedMovie} />

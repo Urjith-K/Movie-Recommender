@@ -48,7 +48,7 @@ export default function MovieSlider({ onMovieClick, onMovieChange }) {
     }, 10000) // 10 seconds
 
     return () => clearInterval(interval)
-  }, [movies, onMovieChange])
+  }, [movies, onMovieChange, currentIndex])
 
   if (loading) return <p>Loading new movies...</p>
   if (error) return <p>Error loading new movies: {error}</p>

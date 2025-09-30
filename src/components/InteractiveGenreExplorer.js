@@ -1,5 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react'
+import Image from 'next/image'
 import MovieCard from './movie-card'
 
 export default function InteractiveGenreExplorer() {
@@ -112,9 +113,13 @@ export default function InteractiveGenreExplorer() {
               <ul className="grid grid-cols-2 gap-4">
                 {exampleMovies.map((movie) => (
                   <li key={movie.id} className="bg-zinc-800 p-2 rounded flex items-center space-x-2">
-                    {movie.poster_path && (
-                      <img src={movie.poster_path} alt={movie.title} className="w-12 h-18 object-cover rounded" />
-                    )}
+                    {movie.poster_path &&
+                      <Image
+                        src={movie.poster_path}
+                        alt={movie.title}
+                        width={48}
+                        height={72}
+                        className="object-cover rounded" />}
                     <div>
                       <p className="font-semibold text-sm">{movie.title}</p>
                       <p className="text-xs text-zinc-400">{movie.year}</p>

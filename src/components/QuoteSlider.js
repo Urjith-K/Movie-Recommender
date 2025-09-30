@@ -49,7 +49,7 @@ export default function QuoteSlider() {
               transition: 'opacity 1000ms ease-in-out',
             }}
           >
-            <p className="text-2xl font-bold italic mb-2">"{quote.text}"</p>
+            <p className="text-2xl font-bold italic mb-2">&ldquo;{quote.text}&rdquo;</p>
             <p className="text-lg text-zinc-300">- {quote.author}</p>
           </div>
         ))}

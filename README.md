@@ -58,3 +58,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 When deploying, make sure to add the `TMDB_API_KEY` as an environment variable in your Vercel project settings.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.

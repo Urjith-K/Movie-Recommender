@@ -124,3 +124,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+## Vercel link 
+
+Here is my deployed Vercel link - [Vercel](https://movie-recommender-ten-pi.vercel.app/)
